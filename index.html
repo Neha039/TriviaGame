@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Trivia Game</title>
+
+  <!--Link added to BootStrap Library-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  
+  <!--Links added to the css stylesheet and reset file-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="reset" href="assets/css/reset.css">
+
+  <!--Link added to the jquery library that will be used in the js file-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--Link added to the javascript file-->
+  <script src ="assets/javascript/game.js"></script>
+</head>
+
+  
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Trivia Game</h1>
+        <h3>Answer quickly!</h3>
+      </div>
+
+    <!-- Scoreboard -->
+      <div class="scoreboard col-sm-3">
+        <p> WARNING: The Trivia Game will end in 
+          <span id="timer"> </span> Seconds</p>
+        <br>
+        <div id="results"></div>
+        <br>
+        <button id="submit">Submit Your Answers...</button>
+      </div>
+
+    <!-- Quiz -->
+      <div class="quiz col-sm-6">
+        <div id="quiz"></div>
+      </div>
+
+    <!-- Image appears after timer expires -->
+      <div class="col-sm-3">
+        <div class="ra">
+          <img src="assets/img/back3.jpg" alt="Mummy"></div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

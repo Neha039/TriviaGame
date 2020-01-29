@@ -1,0 +1,102 @@
+body {
+    font-family: 'Caesar Dressing', cursive;
+    font-family: 'Roboto', sans-serif;    
+    text-align: center;       
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/back2.jpg);
+    background-color:#eeb96e;
+    color: #d8640c;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Caesar Dressing', cursive; 
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.question {
+    display: block;
+    background-color: rgb(189, 183, 136);
+    color: #d8640c;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left: 5px;
+    border-radius: 12px;
+}
+
+.quiz {
+    text-align: left;
+    padding-left: 20px;
+    color: blue;
+}
+
+.answers label {
+    display: block;
+    background-color: rgb(241, 241, 190);  
+    padding-left: 5px;
+    border-radius: 12px;   
+}
+
+p, #results {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.scoreboard {
+    font-family: 'Caesar Dressing', cursive; 
+    font-size: 1.3em;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.ra {
+    visibility: hidden;
+}
+
+#submit {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 16px;
+    background-color: #eeb96e;
+    color: rgb(3, 18, 104);
+    margin-bottom: 18px;
+    border: 0px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: rgb(16, 105, 139);
+    color: red;
+}
+
+/* Media Screen */
+
+@media screen and (max-width:980px) {  
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media (max-width: 640px) {
+    #masthead {
+      position: static;
+    }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    float: none;
+    max-width: 100%;
+    }
+}
